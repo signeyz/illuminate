@@ -438,7 +438,7 @@ li {
   }
 }
 
-/* :::: VIDEO SECTION :::: */
+/* :::: VIDEO SECTION ABOUT US :::: */
 
 #video-section-container {
   position: relative;
@@ -465,6 +465,14 @@ li {
   color: #fff;
 }
 
+.video-title-container .video-title2 {
+  position: absolute;
+  text-transform: capitalize;
+  color: #fff;
+  top: -21rem;
+  font-size: 5rem;
+}
+
 .video-title-container .video-paragraph {
   position: absolute;
   top: -8.5rem;
@@ -485,6 +493,11 @@ li {
     font-size: 6rem;
   }
 
+  .video-title-container .video-title2 {
+    top: -39rem;
+    font-size: 10rem;
+  }
+
   .video-title-container .video-paragraph {
     top: -16.5rem;
     font-size: 1.8rem;
@@ -496,6 +509,11 @@ li {
   .video-title-container .video-title {
     top: -36rem;
     font-size: 8rem;
+  }
+
+  .video-title-container .video-title2 {
+    top: -50rem;
+    font-size: 11rem;
   }
 
   .video-title-container .video-paragraph {
@@ -513,6 +531,11 @@ li {
   .video-title-container .video-title {
     top: -31rem;
     font-size: 9.5rem;
+  }
+
+  .video-title-container .video-title2 {
+    top: -45rem;
+    font-size: 12rem;
   }
 
   .video-title-container .video-paragraph {
