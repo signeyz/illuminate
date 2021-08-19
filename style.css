@@ -484,6 +484,29 @@ li {
 
 /* :::: LAPTOP VIDEO SECTION :::: */
 
+@media (max-width: 280px) {
+  .video-title-container {
+    top: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .video-title-container .video-title2 {
+    top: -18rem;
+    font-size: 5rem;
+  }
+
+  .video-title-container .video-title {
+    top: -11rem;
+    font-size: 2rem;
+  }
+
+  .video-title-container .video-paragraph {
+    top: -7.5rem;
+    font-size: 1.2rem;
+  }
+}
+
 @media (min-width: 768px) {
   .video-title-container {
     padding: 0 6rem;
@@ -540,12 +563,12 @@ li {
 
   .video-title-container .video-title {
     top: -28rem;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .video-title-container .video-title2 {
     top: -45rem;
-    font-size: 12rem;
+    font-size: 10rem;
   }
 
   .video-title-container .video-paragraph {
