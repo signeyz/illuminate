@@ -11,6 +11,7 @@
 html {
   font-size: 62.5%;
   font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -486,16 +487,17 @@ li {
 @media (min-width: 768px) {
   .video-title-container {
     padding: 0 6rem;
+    top: 4rem;
   }
 
   .video-title-container .video-title {
     top: -27rem;
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .video-title-container .video-title2 {
     top: -39rem;
-    font-size: 10rem;
+    font-size: 9rem;
   }
 
   .video-title-container .video-paragraph {
@@ -506,9 +508,13 @@ li {
 }
 
 @media (min-width: 1024px) {
+  .video-title-container {
+    top: 4rem;
+  }
+
   .video-title-container .video-title {
     top: -36rem;
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   .video-title-container .video-title2 {
@@ -528,9 +534,13 @@ li {
     height: 50vh;
   }
 
+  .video-title-container {
+    top: 4rem;
+  }
+
   .video-title-container .video-title {
     top: -31rem;
-    font-size: 9.5rem;
+    font-size: 5.5rem;
   }
 
   .video-title-container .video-title2 {
